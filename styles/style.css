@@ -1,44 +1,110 @@
+.hero {
+  text-align: center;
+  padding-top: 160px;
+  padding-bottom: 20px;
+}
+.hello {
+  font-size: 36px;
+  font-weight: bold;
+}
 h1 {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin-top: 80px;
   font-size: 76px;
   font-weight: bold;
 }
 .description {
-    text-align: center;
-    font-size: 24px;
+  text-align: center;
+  font-size: 24px;
 }
-.hero {
-    background-color: #efefef;
-    margin: 80px;
-    border-radius: 20px;
+.front-end {
+  background-color: #efefef;
+  margin: 80px;
+  margin-bottom: 30px;
+  border-radius: 20px;
 }
-.hero h2{
-    font-size: 36px;
+.front-end h2 {
+  font-size: 36px;
 }
-img {
-    width: 300px;
-    display: block;
-    margin: 0 auto;
+
+.front-end img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
 }
 .about-me {
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    padding: 12px 20px;
-    line-height: 27px;
-    background-color: #455A64;
-    font-weight: bold;
-    border: 0;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  padding: 12px 20px;
+  line-height: 27px;
+  background-color: #455a64;
+  font-weight: bold;
+  border: 0;
 }
+.inter-phrase {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+
 .projects {
-    border-radius: 4px;
-    font-size: 18px;
-    color: #455A64;
-    padding: 12px 20px;
-    line-height: 27px;
-    background-color: white;
-    font-weight: bold;
-    border: 0;
+  border-radius: 4px;
+  font-size: 18px;
+  color: #455a64;
+  padding: 12px 20px;
+  line-height: 27px;
+  background-color: white;
+  font-weight: bold;
+  border: 0;
+}
+.project-1 {
+  margin-top: 80px;
+}
+
+.project-gelato-description {
+  padding-left: 60px;
+}
+.gelato-image {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.weather-image {
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+.gelato-button {
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  padding: 12px 20px;
+  line-height: 27px;
+  background-color: #455a64;
+  font-weight: bold;
+  border: 0;
+}
+.weather-button {
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  padding: 12px 20px;
+  line-height: 27px;
+  background-color: #455a64;
+  font-weight: bold;
+  border: 0;
+}
+@media (min-width: 576px) {
+  .front-image .weather-image,
+  .gelato-image {
+    display: none;
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .weather-image {
+    max-width: 500px;
+  }
 }
