@@ -6,6 +6,7 @@
 .hello {
   font-size: 36px;
   font-weight: bold;
+  text-align: center;
 }
 h1 {
   font-family: "Roboto", sans-serif;
@@ -26,11 +27,13 @@ h1 {
 .front-end h2 {
   font-size: 36px;
 }
-
 .front-end img {
   width: 300px;
   display: block;
   margin: 0 auto;
+}
+.project-1{
+  margin-top: 80px;
 }
 .about-me {
   border-radius: 4px;
@@ -58,13 +61,7 @@ h1 {
   font-weight: bold;
   border: 0;
 }
-.project-1 {
-  margin-top: 80px;
-}
 
-.project-gelato-description {
-  padding-left: 60px;
-}
 .gelato-image {
   width: 300px;
   display: block;
@@ -95,6 +92,33 @@ h1 {
   font-weight: bold;
   border: 0;
 }
+
+@media (max-width: 576px) {
+  .front-image .weather-image,
+  .gelato-image {
+    display: none;
+    padding: 0;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 46px;
+  }
+  .hello {
+    font-size: 26px;
+  }
+  .description{
+    font-size: 20px;
+  }
+  .front-end-title, .gelato-project-title, .weather-project-title {
+    font-size: 26px;
+  }
+ .gelato-project-p, .weather-project-p {
+    font-size: 16px;
+  }
+  .front-end{
+    margin: 30px;
+  }
+  }
 @media (min-width: 576px) {
   .front-image .weather-image,
   .gelato-image {
@@ -106,5 +130,27 @@ h1 {
 @media (min-width: 1200px) {
   .weather-image {
     max-width: 500px;
+  }
+}
+
+.number-1, .number-2, .number-3 {
+  text-align: right;
+  font-size: 76px;
+  font-weight: bold;
+  margin-right: 60px;
+  padding-top: 0;
+}
+p {
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+ .about-me-paragraph-1, .about-me-paragraph-2, .about-me-paragraph-3  {
+    font-size: 16px;
+  }
+}
+@media (max-width: 575px) {
+ .about-me-paragraph-1, .about-me-paragraph-2, .about-me-paragraph-3  {
+    font-size: 14px;
   }
 }
