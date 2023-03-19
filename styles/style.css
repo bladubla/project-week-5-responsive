@@ -32,7 +32,7 @@ h1 {
   display: block;
   margin: 0 auto;
 }
-.project-1{
+.project-1 {
   margin-top: 80px;
 }
 .about-me {
@@ -106,19 +106,26 @@ h1 {
   .hello {
     font-size: 26px;
   }
-  .description{
+  .description {
     font-size: 20px;
   }
-  .front-end-title, .gelato-project-title, .weather-project-title {
+  .front-end h2,
+  .gelato-project-title,
+  .weather-project-title {
     font-size: 26px;
   }
- .gelato-project-p, .weather-project-p {
+  .gelato-project-p,
+  .weather-project-p {
     font-size: 16px;
   }
-  .front-end{
+  .about-me,
+  .projects {
+    font-size: 14px;
+  }
+  .front-end {
     margin: 30px;
   }
-  }
+}
 @media (min-width: 576px) {
   .front-image .weather-image,
   .gelato-image {
@@ -133,7 +140,9 @@ h1 {
   }
 }
 
-.number-1, .number-2, .number-3 {
+.number-1,
+.number-2,
+.number-3 {
   text-align: right;
   font-size: 76px;
   font-weight: bold;
@@ -145,12 +154,16 @@ p {
 }
 
 @media (max-width: 767px) {
- .about-me-paragraph-1, .about-me-paragraph-2, .about-me-paragraph-3  {
+  .about-me-paragraph-1,
+  .about-me-paragraph-2,
+  .about-me-paragraph-3 {
     font-size: 16px;
   }
 }
 @media (max-width: 575px) {
- .about-me-paragraph-1, .about-me-paragraph-2, .about-me-paragraph-3  {
+  .about-me-paragraph-1,
+  .about-me-paragraph-2,
+  .about-me-paragraph-3 {
     font-size: 14px;
   }
 }
