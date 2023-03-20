@@ -266,3 +266,6 @@ footer .social-links a:hover {
   text-align: center;
   color: var(--branding-color);
 }
+.open-sourced {
+color: var(--branding-color);
+}
